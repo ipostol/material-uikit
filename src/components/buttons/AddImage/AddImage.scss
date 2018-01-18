@@ -1,0 +1,22 @@
+@import '~bidstack-theme/theme';
+
+.addImageButton {
+  width: 80px;
+  height: 80px;
+  border: 1px dotted $fontLight;
+  background-color: $white3;
+  // flex-direction: column;
+  user-select: none;
+  border-radius: 50%;
+}
+
+.s {
+  min-width: 80px;
+  height: 80px;
+}
+
+.l {
+  min-width: 160px;
+  height: 160px;
+  font-size: $sizeBodyS;
+}

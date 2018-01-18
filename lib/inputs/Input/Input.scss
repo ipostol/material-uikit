@@ -1,0 +1,115 @@
+@import '~bidstack-theme/theme';
+
+:-ms-input-placeholder { color: $fontColorLight3; }
+::-moz-placeholder { color: $fontColorLight3; }
+::-webkit-input-placeholder { color: $fontColorLight3; }
+:-moz-placeholder { color: $fontColorLight3; }
+
+.general {
+  @extend .body1;
+
+  font-family: 'Open sans', sans-serif;
+  outline: none;
+  display: inline-flex;
+  justify-content: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  caret-color: $primeColor;
+  color: $fontDark;
+  border: none;
+  border-bottom: 2px solid #d3d6e1;
+
+  &:hover {
+    cursor: text;
+  }
+
+  &:focus {
+    color: $fontDark;
+    border-bottom: 2px solid $primeColor;
+  }
+
+  &.m {
+    height: 36px;
+  }
+
+  &.l {
+    height: 45px;
+  }
+}
+
+.secondary {
+  border: 1px solid $borderColor;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: $white3;
+  height: 36px !important;
+  padding: 6px 9px;
+
+  &:hover {
+    cursor: text;
+  }
+
+  &:focus {
+    border: 1px solid $primeColor;
+    box-shadow: 0 0 0 1px $primeColor;
+  }
+
+  &.disabled {
+    border: 1px dashed #bdbdbd;
+  }
+
+  &.error:focus {
+    box-shadow: none;
+    border: 1px solid $red;
+  }
+}
+
+.disabled {
+  cursor: not-allowed !important;
+  color: $fontLight;
+  user-select: none;
+}
+
+.error {
+  border-color: $fontRed;
+  caret-color: $fontRed;
+
+  &:focus {
+    border-bottom: 2px solid $fontRed;
+  }
+}
+
+.info {
+  @extend .small1;
+
+  margin-top: 9px;
+  color: $fontLight;
+}
+
+.warning {
+  @extend .small1;
+
+  color: $red;
+  margin-top: 3px;
+}
+
+.inputWrap {
+  position: relative;
+  width: 100%;
+
+  & + & {
+    margin-top: 32px;
+  }
+}
+
+.iconPadding {
+  padding-left: 34px;
+}
+
+.icon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 8px;
+}

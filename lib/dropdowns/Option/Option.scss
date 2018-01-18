@@ -1,0 +1,41 @@
+@import '~bidstack-theme/theme';
+
+.general {
+  line-height: 1;
+  font-size: $sizeBodyS;
+  color: $fontColorMain;
+  display: flex;
+  align-items: center;
+  height: 36px;
+  background-color: $white3;
+  cursor: pointer;
+  padding: 0 16px;
+  user-select: none;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $white1;
+  }
+}
+
+.icon {
+  padding-right: 16px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s {
+  height: 36px;
+}
+
+.l {
+  height: 54px;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}

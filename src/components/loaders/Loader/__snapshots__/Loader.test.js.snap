@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader component should render correctly error 1`] = `
+<div
+  className="general"
+>
+  <div
+    className="loader error"
+  >
+    <Error />
+  </div>
+</div>
+`;
+
+exports[`Loader component should render correctly loading 1`] = `
+<div
+  className="general"
+>
+  message
+  <div
+    className="loader rotate marginLeft"
+  />
+</div>
+`;
+
+exports[`Loader component should render correctly success 1`] = `
+<div
+  className="general messageRight"
+>
+  message
+  <div
+    className="loader marginRight"
+  >
+    <Success />
+  </div>
+</div>
+`;

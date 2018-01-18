@@ -1,0 +1,38 @@
+@import '~bidstack-theme/theme';
+
+.general {
+  display: flex;
+}
+
+.tab {
+  @extend .small1;
+
+  color: $fontLight;
+  display: flex;
+  margin-right: 0;
+  justify-content: center;
+  align-items: center;
+  height: 46px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 0;
+
+  &:hover {
+    background-color: #f3f3f3;
+    border-bottom: 2px solid #f3f3f3;
+  }
+
+  &:active {
+    background-color: #f3f3f3;
+    border-bottom: 2px solid #f3f3f3;
+  }
+
+  & + & {
+    margin-left: 24px;
+  }
+}
+
+.selected {
+  color: $primeColor;
+  border-bottom: 2px solid $primeColor;
+}

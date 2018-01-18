@@ -1,0 +1,13 @@
+@import '~bidstack-theme/theme';
+
+.general {
+  font-size: $sizeBodyM;
+  line-height: 1.47;
+  color: $fontColorLight3;
+}
+
+.bold {
+  color: $fontColorLight2;
+  text-decoration: none;
+  cursor: pointer;
+}

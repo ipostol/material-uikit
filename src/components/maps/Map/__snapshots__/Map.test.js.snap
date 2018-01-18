@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Map component should render correctly 1`] = `
+<div
+  style={
+    Object {
+      "height": "100%",
+      "position": "relative",
+      "width": "100%",
+    }
+  }
+>
+  <GoogleMap
+    bootstrapURLKeys={
+      Object {
+        "key": "AIzaSyAAFXTWAvZDjwWtFHa7sdW_-D42WVob39Q",
+        "language": "en",
+        "libraries": "places",
+      }
+    }
+    debounced={true}
+    distanceToMouse={[Function]}
+    googleMapLoader={[Function]}
+    hoverDistance={100}
+    layerTypes={Array []}
+    onChange={[Function]}
+    options={
+      Object {
+        "maxZoom": 19,
+        "minZoom": 6,
+        "scrollwheel": false,
+      }
+    }
+    style={
+      Object {
+        "height": "100%",
+        "margin": 0,
+        "padding": 0,
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+    yesIWantToUseGoogleMapApiInternals={true}
+  />
+</div>
+`;

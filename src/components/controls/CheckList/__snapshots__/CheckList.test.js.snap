@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckList component should render correctly 1`] = `
+<div
+  className="container"
+>
+  <Checkbox
+    checked={false}
+    className="label"
+    onChange={[Function]}
+  />
+</div>
+`;

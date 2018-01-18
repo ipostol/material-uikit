@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen component should render correctly 1`] = `
+<div
+  className="general"
+>
+  <img
+    alt=""
+    className="mainImage"
+    src="http://res.cloudinary.com/bidstack-img/image/upload/c_fill,h_211,w_337/img"
+  />
+  <div
+    className="infoWrap"
+  >
+    <div
+      className="cost"
+    />
+    <div
+      className="screens"
+    />
+    <div
+      className="caption"
+    />
+    <div
+      className="caption"
+    />
+  </div>
+</div>
+`;
+
+exports[`Screen component should render correctly many images 1`] = `
+<div
+  className="general"
+>
+  <div
+    className="imagesWrap"
+  >
+    <img
+      alt=""
+      className="firstImage"
+      src="http://res.cloudinary.com/bidstack-img/image/upload/c_fill,h_180,w_200/img"
+    />
+    <div
+      className="wrap"
+    >
+      <img
+        alt=""
+        className="image"
+        src="http://res.cloudinary.com/bidstack-img/image/upload/c_fill,h_88,w_117/img"
+      />
+      <img
+        alt=""
+        className="image"
+        src="http://res.cloudinary.com/bidstack-img/image/upload/c_fill,h_88,w_117/img"
+      />
+    </div>
+  </div>
+  <div
+    className="infoWrap"
+  >
+    <div
+      className="cost"
+    />
+    <div
+      className="screens"
+    />
+    <div
+      className="caption"
+    />
+    <div
+      className="caption"
+    />
+  </div>
+</div>
+`;

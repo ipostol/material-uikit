@@ -1,0 +1,12 @@
+{
+  "requires": [
+    "./src/helpers/setup.js"
+  ],
+  "links": ["https://fonts.googleapis.com/css?family=Open+Sans:400,600"],
+  "scripts": ["https://maps.googleapis.com/maps/api/js?key=AIzaSyAAFXTWAvZDjwWtFHa7sdW_-D42WVob39Q&libraries=places"],
+  "root": "src/components",
+  "env": {
+    "CLOUDINARY_CLOUD_NAME": "bidstack-img",
+    "CLOUDINARY_UPLOAD_PRESET": "lwebi9iz"
+  }
+}

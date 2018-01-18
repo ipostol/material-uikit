@@ -1,0 +1,144 @@
+.rc-tooltip {
+  padding: 10px 0;
+  opacity: 1;
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.09));
+  color: rgba(0, 0, 0, 0.74);
+}
+
+.rc-tooltip-inner {
+  background-color: #fff;
+  padding: 16px;
+  margin: 0;
+  min-height: 0;
+  border-radius: 4px;
+  position: relative;
+  box-shadow: 0 0;
+}
+
+.rc-tooltip-arrow,
+.rc-tooltip-arrow-inner {
+  display: none;
+}
+
+.rc-tooltip-inner::after {
+  border: solid transparent;
+  content: " ";
+  position: absolute;
+  border-width: 8px;
+  border-bottom-color: #fff;
+}
+
+.rc-tooltip-arrow-hidden .rc-tooltip-inner::after {
+  display: none;
+}
+
+.rc-tooltip-placement-bottomLeft {
+  transform-origin: left top !important;
+}
+
+.rc-tooltip-placement-bottomRight {
+  transform-origin: right top !important;
+}
+
+.rc-tooltip-placement-bottom {
+  transform-origin: center top !important;
+}
+
+.rc-tooltip-placement-top {
+  transform-origin: center bottom !important;
+}
+
+.rc-tooltip-placement-rightTop {
+  transform-origin: left top !important;
+}
+
+.rc-tooltip-placement-bottomLeft .rc-tooltip-inner::after {
+  bottom: 100%;
+  left: 26px;
+}
+
+.rc-tooltip-placement-bottom .rc-tooltip-inner::after {
+  bottom: 100%;
+  left: calc(50% - 8px);
+}
+
+.rc-tooltip-placement-top .rc-tooltip-inner::after {
+  top: 100%;
+  left: calc(50% - 8px);
+}
+
+.rc-tooltip-placement-rightTop .rc-tooltip-inner::after {
+  top: 16px;
+  left: -16px;
+  transform: rotate(-90deg);
+}
+
+.rc-tooltip-placement-bottomRight .rc-tooltip-inner::after {
+  bottom: 100%;
+  right: 26px;
+}
+
+/* animations */
+
+.rc-tooltip.rc-tooltip-zoom-enter,
+.rc-tooltip.rc-tooltip-zoom-leave {
+  display: block;
+}
+
+.rc-tooltip-zoom-enter,
+.rc-tooltip-zoom-appear {
+  opacity: 0;
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(0.31, 1, 0.34, 1);
+  animation-play-state: paused;
+}
+
+.rc-tooltip-zoom-leave {
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.31, 1, 0.34, 1);
+  animation-play-state: paused;
+}
+
+.rc-tooltip-zoom-enter.rc-tooltip-zoom-enter-active,
+.rc-tooltip-zoom-appear.rc-tooltip-zoom-appear-active {
+  animation-name: rcToolTipZoomIn;
+  animation-play-state: running;
+}
+
+.rc-tooltip-zoom-leave.rc-tooltip-zoom-leave-active {
+  animation-name: rcToolTipZoomOut;
+  animation-play-state: running;
+}
+
+@keyframes rcToolTipZoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes rcToolTipZoomOut {
+  0% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0, 0);
+  }
+}
+
+/* custom */
+
+.withoutPadding {
+  .rc-tooltip-inner {
+    padding: 0;
+  }
+}

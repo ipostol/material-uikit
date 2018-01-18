@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriceInput component should render correctly 1`] = `
+<Input
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  size="l"
+  type="text"
+  value=""
+/>
+`;
+
+exports[`PriceInput component should render correctly value 1`] = `
+<Input
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  size="l"
+  type="text"
+  value="£10"
+/>
+`;

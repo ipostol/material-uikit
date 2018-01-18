@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown component should render correctly 1`] = `
+<div
+  className="general"
+>
+  <div
+    onClick={[Function]}
+  />
+  <div
+    className="content left"
+  />
+</div>
+`;
+
+exports[`Dropdown component should render correctly onRight, contentWidth props 1`] = `
+<div
+  className="general"
+>
+  <div
+    onClick={[Function]}
+  />
+  <div
+    className="content right"
+    style={
+      Object {
+        "width": 100,
+      }
+    }
+  />
+</div>
+`;

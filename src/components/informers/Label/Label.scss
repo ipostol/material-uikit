@@ -1,0 +1,20 @@
+@import '~bidstack-theme/theme';
+
+.label {
+  @extend .small2;
+
+  color: $fontLight;
+  text-transform: capitalize;
+}
+
+.focused {
+  color: $primeColor;
+}
+
+.error {
+  color: $fontRed;
+}
+
+.optional {
+  font-weight: normal;
+}

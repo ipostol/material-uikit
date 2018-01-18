@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select component should render correctly 1`] = `
+<div>
+  <Label />
+  <Dropdown
+    className="fullWidth"
+    contentWidth="100%"
+    trigger={
+      Array [
+        <div
+          className="trigger general placeholder"
+      >
+          Please select
+      </div>,
+      ]
+    }
+  >
+    <div
+      className="content"
+    >
+      <Option
+        element="div"
+        onClick={[Function]}
+        size="l"
+      >
+        Option 1
+      </Option>
+    </div>
+  </Dropdown>
+</div>
+`;
+
+exports[`Select component should render correctly value props 1`] = `
+<div>
+  <Label />
+  <Dropdown
+    className="fullWidth"
+    contentWidth="100%"
+    trigger={
+      Array [
+        <div
+          className="trigger general"
+      >
+          Option 1
+      </div>,
+      ]
+    }
+  >
+    <div
+      className="content"
+    >
+      <Option
+        element="div"
+        onClick={[Function]}
+        size="l"
+      >
+        Option 1
+      </Option>
+    </div>
+  </Dropdown>
+</div>
+`;

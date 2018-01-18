@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Histogram component should render correctly 1`] = `
+<div
+  className="histogram"
+>
+  <div
+    className="bar"
+    style={
+      Object {
+        "height": "0px",
+      }
+    }
+  />
+  <div
+    className="bar"
+    style={
+      Object {
+        "height": "34px",
+      }
+    }
+  />
+  <div
+    className="bar"
+    style={
+      Object {
+        "height": "0px",
+      }
+    }
+  />
+  <div
+    className="bar"
+    style={
+      Object {
+        "height": "17px",
+      }
+    }
+  />
+</div>
+`;

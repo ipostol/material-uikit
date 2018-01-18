@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavLink component should render correctly 1`] = `
+<Link
+  className="general"
+  onlyActiveOnIndex={false}
+  style={Object {}}
+>
+  <ArrowLeft
+    style={
+      Object {
+        "margin": "0px 16px",
+      }
+    }
+  />
+</Link>
+`;
+
+exports[`NavLink component should render correctly to props 1`] = `
+<Link
+  className="general bold"
+  onlyActiveOnIndex={false}
+  style={Object {}}
+>
+  <ArrowLeft
+    style={
+      Object {
+        "margin": "0px 16px",
+      }
+    }
+  />
+</Link>
+`;

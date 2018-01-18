@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component should render correctly 1`] = `
+<button
+  className="general secondary undefined small"
+  onClick={[Function]}
+  style={Object {}}
+  type="button"
+>
+  <div
+    className="alignLabel"
+  >
+    Button
+  </div>
+  <e
+    background={true}
+    duration={1000}
+    opacity={0.25}
+    radius={150}
+    recenter={true}
+  />
+</button>
+`;

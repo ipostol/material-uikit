@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddImage component should render correctly 1`] = `
+<Button
+  className="addImageButton l"
+  element="button"
+  icon={<UploadSmall />}
+  mod="link"
+  onClick={[Function]}
+  round="small"
+>
+  AddImage
+</Button>
+`;

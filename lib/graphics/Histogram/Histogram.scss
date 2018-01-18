@@ -1,0 +1,10 @@
+.histogram {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.bar {
+  flex-grow: 1;
+  background: #ccc;
+}

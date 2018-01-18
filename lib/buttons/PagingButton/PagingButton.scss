@@ -1,0 +1,10 @@
+@import '~bidstack-theme/theme';
+
+.button {
+  width: 36px;
+  padding: 0;
+}
+
+.active {
+  pointer-events: none;
+}

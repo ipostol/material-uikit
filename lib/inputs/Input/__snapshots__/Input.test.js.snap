@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component should mount correctly 1`] = `
+<Input
+  error="error"
+  icon={<div />}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  size="l"
+  type="text"
+>
+  <div
+    className="inputWrap"
+  >
+    <Label
+      isError="error"
+      isFocused={false}
+    />
+    <div
+      className="icon"
+    >
+      <div />
+    </div>
+    <input
+      className="general error iconPadding l"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+    <div
+      className="warning"
+    >
+      error
+    </div>
+  </div>
+</Input>
+`;
+
+exports[`Input component should render correctly 1`] = `
+<div
+  className="inputWrap"
+>
+  <Label
+    isFocused={false}
+  />
+  <input
+    className="general l"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input component should render correctly icon 1`] = `
+<div
+  className="inputWrap"
+>
+  <Label
+    isError="error"
+    isFocused={false}
+  />
+  <div
+    className="icon"
+  >
+    <div />
+  </div>
+  <input
+    className="general error iconPadding l"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+  <div
+    className="warning"
+  >
+    error
+  </div>
+</div>
+`;

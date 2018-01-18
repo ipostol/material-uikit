@@ -1,0 +1,15 @@
+{
+  "setupFiles": [
+    "./src/helpers/setup.js",
+    "./src/helpers/google.js"
+  ],
+  "snapshotSerializers": [
+    "<rootDir>/node_modules/enzyme-to-json/serializer"
+  ],
+  "roots": [
+    "src"
+  ],
+  "moduleNameMapper": {
+    "^.+\\.(css|scss|svg|png)$": "identity-obj-proxy"
+  }
+}

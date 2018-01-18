@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropdownMenu component should render correctly 1`] = `
+<div
+  className="container"
+>
+  <Dropdown
+    trigger={
+      <div
+        className="trigger"
+      >
+        <div
+          className="icon"
+        >
+          <ArrowDown />
+        </div>
+      </div>
+    }
+  >
+    <Option
+      element="div"
+      onClick={[Function]}
+      size="s"
+    />
+  </Dropdown>
+</div>
+`;

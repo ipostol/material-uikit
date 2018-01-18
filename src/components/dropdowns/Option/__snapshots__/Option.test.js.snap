@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Option component should render correctly 1`] = `
+<div
+  className="general s"
+/>
+`;
+
+exports[`Option component should render correctly icon props 1`] = `
+<div
+  className="general s"
+>
+  <div
+    className="icon"
+  >
+    <div />
+  </div>
+  <span />
+</div>
+`;

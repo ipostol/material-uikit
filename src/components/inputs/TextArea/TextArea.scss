@@ -1,0 +1,25 @@
+@import '~bidstack-theme/theme';
+
+.general {
+  @extend .body1;
+
+  outline: none;
+  display: inline-flex;
+  justify-content: flex-start;
+  background-color: $white3;
+  caret-color: $primeColor;
+  border: 0;
+  border-bottom: 2px solid #d3d6e1;
+  box-sizing: border-box;
+  width: 100%;
+  resize: none;
+  // padding-bottom: 9px;
+
+  &:hover {
+    cursor: text;
+  }
+
+  &:focus {
+    border-bottom: 2px solid $primeColor;
+  }
+}

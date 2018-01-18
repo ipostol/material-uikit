@@ -1,0 +1,39 @@
+@import '~bidstack-theme/theme';
+
+.general {
+  padding: 20px 17px 22px 24px;
+  width: 448px;
+  border-radius: 4px;
+  background-color: $white3;
+  box-shadow: 0 0 8px 0 $black5, 0 4px 8px 0 $black9;
+  position: relative;
+}
+
+.header {
+  font-size: $sizeHead2;
+  line-height: 1.26;
+  margin-bottom: 8px;
+}
+
+.description {
+  font-size: $sizeBodyS;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  height: 36px;
+  width: 80px;
+  margin-left: 8px;
+}
+
+.close {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconMenu component should render correctly 1`] = `
+<Dropdown
+  trigger={
+    <div
+      className="icon"
+    >
+      <More />
+    </div>
+  }
+>
+  <Option
+    element="div"
+    id={1}
+    size="s"
+  />
+</Dropdown>
+`;
+
+exports[`IconMenu component should render correctly children props 1`] = `
+<Dropdown
+  trigger={
+    <div
+      className="icon"
+    >
+      <More />
+    </div>
+  }
+>
+  <div />
+</Dropdown>
+`;

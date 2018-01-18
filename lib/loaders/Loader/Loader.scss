@@ -1,0 +1,47 @@
+@import '~bidstack-theme/theme';
+
+.general {
+  display: flex;
+  align-items: center;
+  font-size: $sizeCaption;
+  line-height: 1.54;
+  color: $red;
+}
+
+.messageRight {
+  flex-direction: row-reverse;
+}
+
+.marginLeft {
+  margin-left: 24px;
+}
+
+.marginRight {
+  margin-right: 24px;
+}
+
+.loader {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid $primeColor;
+}
+
+.error {
+  border: 2px solid $red;
+}
+
+.rotate {
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-top: 2px solid $primeColor;
+  border-right: 2px solid $primeColor;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

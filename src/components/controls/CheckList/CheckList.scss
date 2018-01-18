@@ -1,0 +1,27 @@
+@import '~bidstack-theme/theme';
+
+.container {
+  max-height: 200px;
+  border-radius: 4px;
+  background-color: $white3;
+  border: solid 1px $black9;
+  padding: 8px;
+  overflow-y: auto;
+}
+
+.label {
+  color: $fontColorMain;
+  font-size: $sizeBodyS;
+
+  & + & {
+    margin-top: 16px;
+  }
+}
+
+.header {
+  font-size: $sizeBodyS;
+  line-height: 1.5;
+  color: $fontColorLight2;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}

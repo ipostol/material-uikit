@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PagingButton component should render correctly 1`] = `
+<Button
+  className="button active"
+  element="button"
+  mod="secondary"
+  onClick={[Function]}
+  round="small"
+  size="m"
+>
+  1
+</Button>
+`;
+
+exports[`PagingButton component should render correctly next props 1`] = `
+<Button
+  className="button"
+  element="button"
+  mod="secondary"
+  onClick={[Function]}
+  round="small"
+  size="m"
+>
+  <ArrowLeft />
+</Button>
+`;
+
+exports[`PagingButton component should render correctly prev props 1`] = `
+<Button
+  className="button"
+  element="button"
+  mod="secondary"
+  onClick={[Function]}
+  round="small"
+  size="m"
+>
+  <ArrowLeft />
+</Button>
+`;

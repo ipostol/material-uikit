@@ -1,0 +1,19 @@
+@import '~bidstack-theme/theme';
+
+.link {
+  color: $primeColor;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    color: $primeHover;
+  }
+
+  &:active {
+    color: $primeActive;
+  }
+
+  &:visited {
+    color: $primeColor;
+  }
+}

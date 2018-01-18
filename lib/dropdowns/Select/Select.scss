@@ -1,0 +1,42 @@
+@import '~bidstack-theme/theme';
+
+.general {
+  height: 52px;
+  border: 0;
+  border-bottom: 2px solid #d3d6e1;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.placeholder {
+  color: $fontColorLight2;
+}
+
+.trigger {
+  @extend .body1;
+
+  display: flex;
+  align-items: center;
+  padding-right: 6px;
+  user-select: none;
+}
+
+.mainIcon {
+  position: absolute;
+  right: 8px;
+  top: 15px;
+}
+
+.content {
+  max-height: 250px;
+  overflow: auto;
+}
+
+.warning {
+  @extend .small1;
+
+  color: $red;
+  margin-top: 3px;
+}

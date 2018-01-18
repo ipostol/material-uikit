@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Info component should render correctly 1`] = `
+<div
+  className="general"
+>
+  <div
+    className="header"
+  >
+    <div
+      className="price"
+    >
+      <span>
+        £
+        0
+      </span>
+    </div>
+  </div>
+  <div
+    className="line"
+  />
+  <div
+    className="infoWrap"
+  >
+    <Place
+      className="icon invertIcon"
+    />
+    <div />
+  </div>
+  <div
+    className="infoWrap"
+  >
+    <img
+      alt=""
+      className="icon"
+    />
+    <div />
+  </div>
+  <div
+    className="infoWrap"
+  >
+    <Timeslots
+      className="icon invertIcon"
+    />
+    <div>
+       Timeslot
+    </div>
+  </div>
+  <div
+    className="infoWrap"
+  >
+    <Resolution
+      className="icon invertIcon"
+    />
+    <div>
+      px
+    </div>
+  </div>
+  <div
+    className="infoWrap"
+  >
+    <Looping
+      className="icon invertIcon"
+    />
+    <div>
+      Looping 
+      looping
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Info component should render correctly timeslotsCount=2 1`] = `
+<div
+  className="general"
+>
+  <div
+    className="header"
+  >
+    <div
+      className="price"
+    >
+      <div>
+        £
+        0
+         – £
+        0
+      </div>
+    </div>
+  </div>
+  <div
+    className="line"
+  />
+  <div
+    className="infoWrap"
+  >
+    <Place
+      className="icon invertIcon"
+    />
+    <div />
+  </div>
+  <div
+    className="infoWrap"
+  >
+    <img
+      alt=""
+      className="icon"
+    />
+    <div />
+  </div>
+  <div
+    className="infoWrap"
+  >
+    <TimeslotsTooltip
+      className="icon"
+    />
+    <div>
+      2
+       Timeslot
+      s
+    </div>
+  </div>
+  <div
+    className="infoWrap"
+  >
+    <Resolution
+      className="icon invertIcon"
+    />
+    <div>
+      px
+    </div>
+  </div>
+</div>
+`;

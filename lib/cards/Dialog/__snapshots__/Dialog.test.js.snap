@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog component should render correctly 1`] = `
+<div
+  className="general"
+>
+  <div
+    className="header"
+  />
+  <div
+    className="description"
+  />
+  <div
+    className="wrap"
+  >
+    <Button
+      className="button"
+      element="button"
+      mod="tertiary"
+      round="small"
+    >
+      Cancel
+    </Button>
+    <Button
+      className="button"
+      element="button"
+      mod="secondary"
+      round="small"
+    >
+      Delete
+    </Button>
+  </div>
+  <Button
+    className="close"
+    element="button"
+    mod="icon"
+    round="small"
+  >
+    <Close />
+  </Button>
+</div>
+`;

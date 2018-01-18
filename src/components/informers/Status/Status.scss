@@ -1,0 +1,49 @@
+@import '~bidstack-theme/theme';
+
+.container {
+  @extend .small1;
+
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 4px;
+    border-radius: 4px;
+  }
+}
+
+.pending,
+.finished,
+.archived {
+  color: $fontLight;
+
+  &::before {
+    background-color: #d3d6e1;
+  }
+}
+
+.live,
+.approved {
+  color: $primeColor;
+
+  &::before {
+    background-color: $primeColor;
+  }
+}
+
+.rejected {
+  color: $fontRed;
+
+  &::before {
+    background-color: $fontRed;
+  }
+}
+
+.Live {
+  color: $fontRed;
+
+  &::before {
+    background-color: $fontRed;
+  }
+}

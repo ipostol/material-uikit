@@ -1,0 +1,28 @@
+@import '~bidstack-theme/theme';
+
+.headerWrap {
+  display: flex;
+  padding: 9px 16px;
+  align-items: center;
+
+  & + img {
+    border-radius: 0;
+  }
+}
+
+.header {
+  font-size: $sizeBodyM;
+  line-height: 1.47;
+  margin-right: auto;
+}
+
+.icon {
+  display: block;
+  margin-right: 6px;
+}
+
+.percent {
+  font-size: $sizeBodyM;
+  line-height: 1.47;
+  color: $fontColorLight2;
+}

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs component should render correctly 1`] = `
+<div
+  className="general"
+>
+  <div
+    className="tab"
+    onClick={[Function]}
+  />
+  <div
+    className="underline"
+  />
+</div>
+`;

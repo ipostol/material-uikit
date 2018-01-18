@@ -1,0 +1,19 @@
+@import '~bidstack-theme/theme';
+
+.general {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  margin-right: 16px;
+  font-weight: 600;
+  font-size: 13px;
+  color: $fontLight;
+}
+
+.button {
+  & + & {
+    margin-left: 4px;
+  }
+}

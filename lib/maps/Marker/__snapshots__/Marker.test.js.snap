@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Marker component should render correctly 1`] = `
+<Tooltip
+  align={
+    Object {
+      "points": Array [
+        "tl",
+        "br",
+      ],
+    }
+  }
+  arrowContent={null}
+  destroyTooltipOnHide={false}
+  mouseEnterDelay={0}
+  mouseLeaveDelay={0.1}
+  overlay={<Info />}
+  placement="bottom"
+  prefixCls="rc-tooltip-custom"
+  trigger={
+    Array [
+      "hover",
+    ]
+  }
+>
+  <div
+    className="container"
+    style={null}
+  >
+    <div
+      className="general visited"
+    >
+      <img
+        alt=""
+        className="icon"
+      />
+      £
+      0
+    </div>
+    <div
+      className="arrow visitedArrow"
+    />
+  </div>
+</Tooltip>
+`;
+
+exports[`Marker component should render correctly isLoosing=true 1`] = `
+<Tooltip
+  align={
+    Object {
+      "points": Array [
+        "tl",
+        "br",
+      ],
+    }
+  }
+  arrowContent={null}
+  destroyTooltipOnHide={false}
+  mouseEnterDelay={0}
+  mouseLeaveDelay={0.1}
+  overlay={<Info />}
+  placement="bottom"
+  prefixCls="rc-tooltip-custom"
+  trigger={
+    Array [
+      "hover",
+    ]
+  }
+>
+  <div
+    className="container"
+    style={null}
+  >
+    <div
+      className="general loosing"
+    >
+      <img
+        alt=""
+        className="icon"
+      />
+      £
+      0
+    </div>
+    <div
+      className="arrow loosingArrow"
+    />
+  </div>
+</Tooltip>
+`;
+
+exports[`Marker component should render correctly isWinning=true 1`] = `
+<Tooltip
+  align={
+    Object {
+      "points": Array [
+        "tl",
+        "br",
+      ],
+    }
+  }
+  arrowContent={null}
+  destroyTooltipOnHide={false}
+  mouseEnterDelay={0}
+  mouseLeaveDelay={0.1}
+  overlay={<Info />}
+  placement="bottom"
+  prefixCls="rc-tooltip-custom"
+  trigger={
+    Array [
+      "hover",
+    ]
+  }
+>
+  <div
+    className="container"
+    style={null}
+  >
+    <div
+      className="general winning"
+    >
+      <img
+        alt=""
+        className="icon"
+      />
+      £
+      0
+    </div>
+    <div
+      className="arrow winningArrow"
+    />
+  </div>
+</Tooltip>
+`;
+
+exports[`Marker component should render correctly timeslotsCount=2, $hover=true 1`] = `
+<Tooltip
+  align={
+    Object {
+      "points": Array [
+        "tl",
+        "br",
+      ],
+    }
+  }
+  arrowContent={null}
+  destroyTooltipOnHide={false}
+  mouseEnterDelay={0}
+  mouseLeaveDelay={0.1}
+  overlay={
+    <Info
+      timeslotsCount={2}
+    />
+  }
+  placement="bottom"
+  prefixCls="rc-tooltip-custom"
+  trigger={
+    Array [
+      "hover",
+    ]
+  }
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "zIndex": 2,
+      }
+    }
+  >
+    <div
+      className="general hover"
+    >
+      <img
+        alt=""
+        className="icon"
+      />
+      £
+      0
+      +
+    </div>
+    <div
+      className="arrow hoverArrow"
+    />
+  </div>
+</Tooltip>
+`;

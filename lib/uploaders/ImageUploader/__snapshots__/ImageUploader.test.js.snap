@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageUploader component should render correctly 1`] = `
+<input
+  accept="image/*"
+  onChange={[Function]}
+  style={
+    Object {
+      "display": "none",
+    }
+  }
+  type="file"
+/>
+`;
