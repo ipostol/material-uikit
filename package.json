@@ -1,5 +1,5 @@
 {
-  "name": "bidstack-material-uikit",
+  "name": "material-uikit",
   "version": "0.0.1",
   "description": "This is bidstack material ui components repository",
   "main": "lib/index.js",
