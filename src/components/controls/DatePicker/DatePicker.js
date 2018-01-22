@@ -125,11 +125,12 @@ class DatePicker extends PureComponent {
 
   render() {
 
-    const { initialMonth, disabledDays, isRange } = this.props;
+    const { initialMonth, disabledDays, isRange, month } = this.props;
     const { from, enteredTo: to } = this.state;
 
     return (
       <DayPicker
+        month={month}
         onKeyDown={this.onKeyDown}
         classNames={styles}
         numberOfMonths={2}
@@ -152,6 +153,7 @@ DatePicker.propTypes = {
   isRequired: PropTypes.bool,
   disabledDays: PropTypes.object,
   initialMonth: PropTypes.object,
+  month: PropTypes.object,
 };
 
 DatePicker.defaultProps = {
