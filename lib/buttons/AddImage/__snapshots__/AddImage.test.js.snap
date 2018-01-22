@@ -6,6 +6,7 @@ exports[`AddImage component should render correctly 1`] = `
   element="button"
   icon={<UploadSmall />}
   mod="link"
+  onClick={[Function]}
   round="small"
 >
   AddImage

@@ -17,6 +17,7 @@ exports[`Dialog component should render correctly 1`] = `
       className="button"
       element="button"
       mod="tertiary"
+      onClick={[Function]}
       round="small"
     >
       Cancel
@@ -25,6 +26,7 @@ exports[`Dialog component should render correctly 1`] = `
       className="button"
       element="button"
       mod="secondary"
+      onClick={[Function]}
       round="small"
     >
       Delete
@@ -34,6 +36,7 @@ exports[`Dialog component should render correctly 1`] = `
     className="close"
     element="button"
     mod="icon"
+    onClick={[Function]}
     round="small"
   >
     <Close />
